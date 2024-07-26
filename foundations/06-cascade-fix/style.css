@@ -6,22 +6,29 @@ body {
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  font-size: 22px;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
+/* removed another para selector to clean up */
 
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
+
+/* alternate solution for greenbutton:
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+} */
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,7 +36,7 @@ body {
   font-size: 20px;
 }
 
-.child {
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
